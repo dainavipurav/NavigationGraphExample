@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".FormFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutRegister"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/textViewRegisterMessageLabel"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_dimen_mdpi"
+            android:layout_width="0dp"
+            android:text="@string/text_labelplease_enter_your_phone_number_to_register"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRegisterEnd"
+            app:layout_constraintStart_toEndOf="@id/guidelineRegisterStart"
+            app:layout_constraintTop_toBottomOf="@id/guidelineRegisterTop" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AppTheme.TextInputLayout"
+            android:hint="@string/text_label_name"
+            android:id="@+id/textInputLayoutRegisterName"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_dimen_mdpi"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRegisterEnd"
+            app:layout_constraintStart_toEndOf="@id/guidelineRegisterStart"
+            app:layout_constraintTop_toBottomOf="@id/textViewRegisterMessageLabel"
+            app:shapeAppearance="@style/ShapeAppearance.Rounded.MyApp.MediumComponent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditTextRegisterName"
+                android:inputType="textPersonName"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AppTheme.TextInputLayout"
+            android:hint="@string/text_label_mobile_number"
+            android:id="@+id/textInputLayoutRegisterPhoneNumber"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_dimen_mdpi"
+            android:layout_width="0dp"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRegisterEnd"
+            app:layout_constraintStart_toEndOf="@id/guidelineRegisterStart"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutRegisterName"
+            app:shapeAppearance="@style/ShapeAppearance.Rounded.MyApp.MediumComponent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditTextRegisterPhoneNumber"
+                android:inputType="phone"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:maxLength="10" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/AppTheme.TextInputLayout"
+            android:hint="@string/text_hint_location"
+            android:id="@+id/textInputLayoutRegisterLocation"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_dimen_mdpi"
+            android:layout_width="0dp"
+            app:layout_constraintHorizontal_weight="2.5"
+            app:layout_constraintStart_toEndOf="@id/guidelineRegisterStart"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRegisterEnd"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutRegisterPhoneNumber"
+            app:shapeAppearance="@style/ShapeAppearance.Rounded.MyApp.MediumComponent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputEditTextRegisterLocation"
+                android:inputType="text"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            style="@style/AppTheme.Button.Dark"
+            android:id="@+id/buttonRegisterSignUp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_dimen_mdpi"
+            android:layout_width="0dp"
+            android:text="@string/text_label_sign_up"
+            app:layout_constraintBottom_toTopOf="@+id/guidelineRegisterBottom"
+            app:layout_constraintEnd_toStartOf="@id/guidelineRegisterEnd"
+            app:layout_constraintStart_toEndOf="@id/guidelineRegisterStart"
+            app:layout_constraintTop_toBottomOf="@id/textInputLayoutRegisterLocation"
+            app:layout_constraintVertical_bias="0"
+            app:shapeAppearance="@style/ShapeAppearance.Rounded.MyApp.MediumComponent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRegisterStart"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRegisterEnd"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.95" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRegisterTop"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.05" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guidelineRegisterBottom"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.95" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+

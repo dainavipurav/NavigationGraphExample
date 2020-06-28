@@ -1,0 +1,218 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">NavigationGraphExample</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="text_label_welcome">Welcome</string>
+    <string name="text_label_login">Login</string>
+    <string name="text_label_register">Register</string>
+    <string name="text_on_boarding_message">Lorem Ipsum is simply dummy text of the printing and typesetting</string>
+    <string name="text_label_login_message">Please enter your phone number to login</string>
+    <string name="text_label_phone_number">+91 </string>
+    <string name="text_label_don_t_have_an_account_sign_up">Don\'t have an Account? Sign Up</string>
+    <string name="text_labelplease_enter_your_phone_number_to_register">Please enter your phone number to register</string>
+    <string name="text_label_name">Name</string>
+    <string name="text_hint_91">+91</string>
+    <string name="text_hint_location">Location</string>
+    <string name="text_label_locate_me">Locate Me</string>
+    <string name="text_hint_password">Password</string>
+    <string name="text_label_sign_up">Send</string>
+    <string name="text_label_description">Description</string>
+    <string name="text_label_submit">Submit</string>
+    <string name="text_label_wallet_balance">Wallet Balance</string>
+    <string name="text_hint_rupees">Rupees</string>
+    <string name="text_label_add_money">Add Money</string>
+    <string name="text_label_save">Save</string>
+    <string name="text_label_cancel">Cancel</string>
+    <string name="text_label_mobile_number">Mobile Number</string>
+    <string name="text_label_hospitals">Hospitals</string>
+    <string name="text_label_diagnostic_center">Diagnostic Center</string>
+    <string name="text_label_specialist">Specialist</string>
+    <string name="text_label_second_opinion">Second Opinion</string>
+    <string name="text_label_clinic">Clinic</string>
+    <string name="text_label_dentist">Dentist</string>
+    <string name="text_label_ophthalmologist">Ophthalmologist</string>
+    <string name="text_label_physiotherapy">Physiotherapy</string>
+    <string name="text_label_panchakarma">Panchakarma</string>
+    <string name="text_label_pharmacy">Pharmacy</string>
+    <string name="text_label_document_logo">Document Logo</string>
+    <string name="text_label_delete_button">Delete button</string>
+    <string name="text_label_address_proof_title">Pan Card.pdf</string>
+    <string name="text_label_address_proof_dated_on">Added on 9 April, 2019 by candidate</string>
+
+
+    <!--Errors-->
+    <string name="text_error_user_id">User Id cannot be empty</string>
+    <string name="text_error_password">Password cannot be less then 8 digits</string>
+    <string name="text_error_invalid_email">Please provide valid Email Id</string>
+    <string name="text_error_empty_field">Field cannot be empty</string>//
+    <string name="text_error_confirm_password">Confirm Password does not match</string>
+    <string name="text_error_office_address">Office Address cannot be empty</string>
+    <string name="text_error_contact_person_name">Contact person name cannot be empty</string>
+    <string name="text_error_contact_person_designation">Contact person designation cannot be empty</string>
+    <string name="text_error_country_code">Country code cannot be empty</string>
+    <string name="text_error_mobile_no">Mobile no. cannot be less than 10 digits</string>//
+    <string name="text_error_landline">Landline cannot be less than 10 digits</string>
+    <string name="text_error_address_proof">Address Proof cannot be empty</string>
+    <string name="text_error_industry_type">Industry type cannot be empty</string>
+    <string name="text_error_products">Products cannot be empty</string>
+    <string name="text_error_brands">Brands cannot be empty</string>
+    <string name="text_error_hq_location">HQ Location cannot be empty</string>
+    <string name="text_error_operations">Operations cannot be empty</string>
+    <string name="text_error_business_turnover">Business turnover of company cannot be empty</string>
+    <string name="text_error_company_accreditations">Company accreditations / certifications cannot be empty</string>
+    <string name="text_error_company_url">Company url cannot be empty</string>
+    <string name="text_errror_company_description">Company description cannot be empty</string>
+    <string name="text_error_incorrect_o_t_p">Incorrect OTP</string>
+    <string name="text_error_unable_to_load">Unable to load data, please make sure you are connected to the Internet</string>
+    <string name="text_error_unable_to_connect_to_the_network">Unable to connect to network!</string>
+
+    //Login
+    <string name="text_login_to_continue">Please login to continue!</string>
+    <string name="alert_logout_heads_up_title">Are you sure?</string>
+    <string name="alert_logout_heads_up_message">You are about to sign out from your account!</string>
+    <string name="action_logout">Logout</string>
+
+    //Verify OTP
+    <string name="text_label_please_enter_the_6_digit_otp_that_has_sent_to_91">Please Enter the 6 digit OTP that has sent to <xliff:g example="Mobile Number" id="mobile_number">%s</xliff:g></string>
+    <string name="text_label_resend_6_digit_otp">Resend 6 digit OTP?</string>
+    <string name="text_label_confirm_otp">Confirm OTP</string>
+
+    //Tags
+    <string name="text_tag_on_boarding">OnBoarding</string>
+    <string name="text_tag_register">Register</string>
+    <string name="text_tag_verify_otp">Verify OTP</string>
+    <string name="text_tag_login">Login</string>
+    <string name="text_tag_my_account">My Account</string>
+    <string name="text_tag_dashboard">DashBoard</string>
+    <string name="text_tag_webview">WebView</string>
+    <string name="text_tag_home">Home</string>
+
+    //title
+    <string name="text_title_exit_app">Exit App!</string>
+    <string name="text_title_are_you_sure_you_want_to_exit_from_this_app">Are you sure you want to exit from this app?</string>
+    <string name="text_title_my_account">My Account</string>
+    <string name="text_title_pay">Pay</string>
+    <string name="text_title_health_info">Health Info</string>
+    <string name="text_title_more_info">More Info</string>
+    <string name="text_title_how_it_works">How It Works?</string>
+    <string name="text_title_faqs">FAQs</string>
+    <string name="text_title_privacy_policies">Privacy Policies</string>
+    <string name="text_title_terms_and_conditions">Terms and Conditions</string>
+    <string name="text_title_about_hulking">About Hulking</string>
+    <string name="text_title_contact_us">Contact Us</string>
+    <string name="text_title_logout">Logout</string>
+
+    //Contact Us
+    <string name="text_sub_heading_contact_us">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero\'s De Finibus Bonorum et Malorum for use in a type specimen book.</string>
+    <string name="text_heading_contact_us">Lorem Ipsum</string>
+    <string name="text_label_top_specialities">Top Specialities</string>
+    <string name="text_label_featured_services">Featured Services</string>
+    <string name="text_label_view_all">View All</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_tag_health_info_list">Health Info List</string>
+    <string name="text_tag_home_featured_services_list">Home Featured Services List</string>
+    <string name="text_label_dental_filling">Dental Filling</string>
+    <string name="text_label_root_canal_treatment">Root Canal Treatment</string>
+    <string name="text_tag_top_specialities_list">Home Top Specialities List</string>
+    <string name="text_amount_10000_00">10000.00</string>
+    <string name="text_kandival_east_bhavika_dental_clinic">Kandival East - Bhavika Dental Clinic</string>
+    <string name="text_welcome_mansi">Welcome Mansi</string>
+    <string name="text_mansi">Mansi</string>
+    <string name="text_91_9595123231">+91 9595123231</string>
+    <string name="text_date_26_feb_2020">26 Feb, 2020</string>
+    <string name="text_tag_health_info_detail">Health Info Detail</string>
+    <string name="text_tag_view_all_featured_services">View All Featured Services</string>
+    <string name="text_label_receive_cashback_of_10">Receive cashback of 10%</string>
+    <string name="text_address">c-305, eureka towers, Chincholi Bunder Rd, behind Toyota showroom, Mindspace, Malad West, Mumbai, Maharashtra 400064</string>
+    <string name="text_about_dr_bhavika_champanerkar">About Dr.Bhavika Champanerkar</string>
+    <string name="text_label_read_more">Read more</string>
+    <string name="text_label_cashless_facilities">Cashless Facilities</string>
+    <string name="text_label_schedule">Schedule</string>
+    <string name="text_label_video">Video</string>
+    <string name="text_label_contact_clinic">Contact Clinic</string>
+    <string name="text_tag_top_specialities_details">Top Specialities Details</string>
+    <string name="text_label_services_offered">Services Offered</string>
+    <string name="text_title_amenities">Amenities</string>
+
+    <!--Pay Module-->
+    <string name="text_tag_pay">Pay</string>
+    <string name="text_label_title">Title</string>
+    <string name="text_label_sub_title">Sub Title</string>
+    <string name="text_label_id">ID</string>
+    <string name="text_label_address">Address</string>
+    <string name="text_tag_scanned_details">Scaned Details</string>
+    <string name="text_label_zero">0</string>
+    <string name="text_label_message">Message</string>
+    <string name="text_label_proceed_to_pay">Proceed To Pay</string>
+    <string name="text_tag_amount_to_be_paid">Amount To Be Paid</string>
+    <string name="text_label_payment_successfull">Payment Successful</string>
+    <string name="text_cd_payment_success_or_fail">Payment Success Or Fail</string>
+    <string name="text_label_done">Done</string>
+
+    <string name="description_two">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero\'s De Finibus Bonorum et Malorum for use in a type specimen book.</string>
+    <string name="description_one">Lorem Ipsum is simply dummy text of the printing and typesetting</string>
+    <string name="text_show_more">Show More</string>
+    <string name="text_read_less">Read Less</string>
+    <string name="text_show_less">Show Less</string>
+    <string name="text_dr_bhavika_champanerkar">Dr. Bhavika Champanerkar</string>
+    <string name="text_title_share">Share</string>
+    <string name="text_title_verify_6_digit_otp">Verify 6 Digit OTP</string>
+    <string name="text_title_find_and_book"><![CDATA[Find & Book]]></string>
+    <string name="text_title_info">Info</string>
+    <string name="text_label_contact_no">Contact No.</string>
+    <string name="text_label_add_schedule">Add Schedule</string>
+    <string name="text_label_add_address">Add Address</string>
+    <string name="text_label_add_photo">Add Photo</string>
+    <string name="text_label_add_video">Add Video</string>
+    <string name="text_label_next">Next</string>
+    <string name="text_title_vendor_register">Vendor Register</string>
+    <string name="text_label_no_items_selected">No Items Selected</string>
+    <string name="text_label_amenities_array">Amenities Array</string>
+    <string name="text_label_selected_services_array">Selected services offered array</string>
+    <string name="text_tag_add_vendor_address">Add Vendor Address</string>
+    <string name="text_title_building_residential_area">Building/Residential Area</string>
+    <string name="text_title_complete_address">Complete Address</string>
+    <string name="text_hint_floor_optional">Floor(Optional)</string>
+    <string name="text_hint_landmark">Landmark</string>
+
+
+    <!--VendorRegisterAddSchedule-->
+    <string name="vendor_schedule_time"><xliff:g example="FromTime" id="from_time">%s</xliff:g> - <xliff:g example="To Time" id="to_time">%s</xliff:g></string>
+
+    <string name="text_hint_youtube_video_URL">Youtube Video URL</string>
+    <string name="text_tag_vendor_register_add_videos">VendorRegisterAddVideos</string>
+    <string name="text_label_add">Add</string>
+    <string name="text_label_morning">Morning</string>
+    <string name="text_hint_from">From</string>
+    <string name="text_hint_to">To</string>
+    <string name="text_label_not_available">Not Available</string>
+    <string name="text_label_evening">Evening</string>
+
+    <string name="text_label_choose_from">Choose from:</string>
+    <string name="text_title_not_available">Not Available</string>
+
+    <string name="text_string_monday">Monday</string>
+    <string name="text_string_tuesday">Tuesday</string>
+    <string name="text_string_wednesday">Wednesday</string>
+    <string name="text_string_thursday">Thursday</string>
+    <string name="text_string_friday">Friday</string>
+    <string name="text_string_saturday">Saturday</string>
+    <string name="text_string_sunday">Sunday</string>
+    <string name="text_label_t">  T</string>
+    <string name="text_label_w">  W</string>
+    <string name="text_label_m">  M</string>
+    <string name="text_label_s">  S</string>
+    <string name="text_label_f">  F</string>
+    <string name="text_label_type">Type</string>
+    <string name="text_label_subtype">Subtype</string>
+
+    <string name="details">Name:
+        <xliff:g example="name" id="name">%s\n</xliff:g>Moblie:
+        <xliff:g example="mobile" id="mobile">%s\n</xliff:g>Location:
+        <xliff:g example="mobile" id="mobile">%s</xliff:g>
+    </string>
+
+
+</resources>

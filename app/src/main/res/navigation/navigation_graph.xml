@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/formFragment">
+
+    <fragment
+        android:id="@+id/formFragment"
+        android:name="com.example.navigationgraphexample.FormFragment"
+        android:label="fragment_form"
+        tools:layout="@layout/fragment_form">
+
+        <action
+            android:id="@+id/action_formFragment_to_getFormData"
+            app:destination="@id/getFormDataFragment"
+            app:popUpTo="@id/formFragment">
+
+        </action>
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/getFormDataFragment"
+        android:name="com.example.navigationgraphexample.GetFormDataFragment"
+        android:label="fragment_get_form_data"
+        tools:layout="@layout/fragment_get_form_data" >
+
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="Dainu" />
+
+        <argument
+            android:name="mobile"
+            app:argType="string"
+            android:defaultValue="9619" />
+
+        <argument
+            android:name="location"
+            app:argType="string"
+            android:defaultValue="Mumbai" />
+
+    </fragment>
+</navigation>
